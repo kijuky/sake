@@ -1,0 +1,5 @@
+run: hello.class
+    scala hello
+
+hello.class: hello.scala
+    scalac hello.scala
